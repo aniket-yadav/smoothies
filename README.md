@@ -7,3 +7,4 @@ mongoose is used to connect the font end with database
 
 it show how to implement mvc architecture
 
+visit smoothies :- <a href="https://smoothies-node.herokuapp.com"/> Smoothies </a>
