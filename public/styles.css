@@ -5,7 +5,7 @@ body{
   margin: 2px 40px;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  background: #fafafa;
+  background: #f0f0f0;
 }
 h1, h2, h3, h4, ul, li, a, p, input, label, button, div, footer{
   margin: 0;
@@ -136,6 +136,9 @@ header .btn{
   position: relative;
   text-align: center;
   padding: 0 20px 30px 20px
+}
+.item{
+  text-align: left;
 }
 .recipe img{
   width: 100px;
