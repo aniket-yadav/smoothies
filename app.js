@@ -16,8 +16,8 @@ app.use(cookieParser());
 app.set('view engine', 'ejs');
 
 // database connection
-//const PORT = process.env.PORT;
-const PORT = 3000;
+const PORT = process.env.PORT;
+//const PORT = 3000;
 const dbURI = "mongodb+srv://Aniket:aniket1234@nodetutorials.ey0dd.mongodb.net/node-awt?retryWrites=true&w=majority";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
   .then((result) => app.listen(PORT))
